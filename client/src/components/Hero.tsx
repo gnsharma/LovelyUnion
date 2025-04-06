@@ -11,7 +11,7 @@ const Hero = () => {
 
   useEffect(() => {
     // Set wedding date - May 5, 2025
-    const weddingDate = new Date('2025-05-05T18:00:00').getTime();
+    const weddingDate = new Date('2025-05-05T19:00:00').getTime();
     
     // Update countdown every second
     const timer = setInterval(() => {
@@ -91,44 +91,31 @@ const Hero = () => {
         >
           <div className="flex flex-col items-center">
             <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg w-16 md:w-24 h-16 md:h-24 flex items-center justify-center">
-              <span className="font-serif text-2xl md:text-4xl text-white">{timeLeft.days}</span>
+              <span className="font-serif text-2xl md:text-4xl text-white">{timeLeft.days.toString()}</span>
             </div>
             <span className="text-white text-xs md:text-sm mt-2">Days</span>
           </div>
           
           <div className="flex flex-col items-center">
             <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg w-16 md:w-24 h-16 md:h-24 flex items-center justify-center">
-              <span className="font-serif text-2xl md:text-4xl text-white">{timeLeft.hours}</span>
+              <span className="font-serif text-2xl md:text-4xl text-white">{timeLeft.hours.toString()}</span>
             </div>
             <span className="text-white text-xs md:text-sm mt-2">Hours</span>
           </div>
           
           <div className="flex flex-col items-center">
             <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg w-16 md:w-24 h-16 md:h-24 flex items-center justify-center">
-              <span className="font-serif text-2xl md:text-4xl text-white">{timeLeft.minutes}</span>
+              <span className="font-serif text-2xl md:text-4xl text-white">{timeLeft.minutes.toString()}</span>
             </div>
             <span className="text-white text-xs md:text-sm mt-2">Minutes</span>
           </div>
           
           <div className="flex flex-col items-center">
             <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg w-16 md:w-24 h-16 md:h-24 flex items-center justify-center">
-              <span className="font-serif text-2xl md:text-4xl text-white">{timeLeft.seconds}</span>
+              <span className="font-serif text-2xl md:text-4xl text-white">{timeLeft.seconds.toString()}</span>
             </div>
             <span className="text-white text-xs md:text-sm mt-2">Seconds</span>
           </div>
-        </div>
-        
-        <div
-          className="opacity-0 translate-y-5 transition-all duration-800 ease-out"
-          style={{ transitionDelay: "700ms" }}
-          data-animate="true"
-        >
-          <a
-            href="#rsvp"
-            className="inline-block bg-gold hover:bg-darkGold text-white font-serif uppercase tracking-wider px-8 py-3 rounded-md transition-colors"
-          >
-            RSVP Now
-          </a>
         </div>
       </div>
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
