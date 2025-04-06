@@ -1,0 +1,12 @@
+# Configuration for Netlify deployment
+[build]
+  # Directory to publish (static site)
+  publish = "dist/public"
+  # Build command
+  command = "npm run build"
+
+# Redirect rules for SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
