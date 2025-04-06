@@ -1,5 +1,13 @@
 import { useEffect } from "react";
-import { Header, Hero, OurStory, Schedule, Venue, Gallery, RSVP, Footer } from "@/components";
+import {
+  Header,
+  Hero,
+  OurStory,
+  Schedule,
+  Venue,
+  Gallery,
+  Footer,
+} from "@/components";
 
 function App() {
   useEffect(() => {
