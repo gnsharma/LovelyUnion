@@ -68,25 +68,11 @@ const Hero = () => {
         >
           Anika & Govind 
         </h1>
-        <p
-          className="font-sans text-lg md:text-xl text-white mb-3 opacity-0 translate-y-5 transition-all duration-800 ease-out"
-          style={{ transitionDelay: "400ms" }}
-          data-animate="true"
-        >
-          May 05, 2025 • Hotel Prime Safari • Jaipur
-        </p>
-        <p
-          className="font-script text-xl md:text-2xl text-gold mb-8 opacity-0 translate-y-5 transition-all duration-800 ease-out"
-          style={{ transitionDelay: "500ms" }}
-          data-animate="true"
-        >
-          #ani_ka_govind
-        </p>
         
         {/* Countdown Timer */}
         <div 
-          className="flex justify-center gap-4 md:gap-8 mb-10 opacity-0 translate-y-5 transition-all duration-800 ease-out"
-          style={{ transitionDelay: "600ms" }}
+          className="flex justify-center gap-4 md:gap-8 mb-8 opacity-0 translate-y-5 transition-all duration-800 ease-out"
+          style={{ transitionDelay: "300ms" }}
           data-animate="true"
         >
           <div className="flex flex-col items-center">
@@ -117,6 +103,21 @@ const Hero = () => {
             <span className="text-white text-xs md:text-sm mt-2">Seconds</span>
           </div>
         </div>
+        
+        <p
+          className="font-sans text-lg md:text-xl text-white mb-3 opacity-0 translate-y-5 transition-all duration-800 ease-out"
+          style={{ transitionDelay: "400ms" }}
+          data-animate="true"
+        >
+          May 05, 2025 • Hotel Prime Safari • Jaipur
+        </p>
+        <p
+          className="font-script text-xl md:text-2xl text-gold mb-8 opacity-0 translate-y-5 transition-all duration-800 ease-out"
+          style={{ transitionDelay: "500ms" }}
+          data-animate="true"
+        >
+          #ani_ka_govind
+        </p>
       </div>
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
         <a href="#story" className="block">
