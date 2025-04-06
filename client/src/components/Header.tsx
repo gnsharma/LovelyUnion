@@ -53,7 +53,6 @@ const Header = () => {
             <li><a href="#schedule" className="text-darkGray hover:text-gold transition-colors">Schedule</a></li>
             <li><a href="#venue" className="text-darkGray hover:text-gold transition-colors">Venue</a></li>
             <li><a href="#gallery" className="text-darkGray hover:text-gold transition-colors">Gallery</a></li>
-            <li><a href="#rsvp" className="text-darkGray hover:text-gold transition-colors">RSVP</a></li>
           </ul>
         </div>
         
@@ -65,7 +64,6 @@ const Header = () => {
             <li><a href="#schedule" onClick={closeMenu} className="block text-darkGray hover:text-gold transition-colors">Schedule</a></li>
             <li><a href="#venue" onClick={closeMenu} className="block text-darkGray hover:text-gold transition-colors">Venue</a></li>
             <li><a href="#gallery" onClick={closeMenu} className="block text-darkGray hover:text-gold transition-colors">Gallery</a></li>
-            <li><a href="#rsvp" onClick={closeMenu} className="block text-darkGray hover:text-gold transition-colors">RSVP</a></li>
           </ul>
         </div>
       </nav>
