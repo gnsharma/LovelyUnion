@@ -1,12 +1,5 @@
 import { useEffect } from "react";
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import OurStory from "@/components/OurStory";
-import Schedule from "@/components/Schedule";
-import Venue from "@/components/Venue";
-import Gallery from "@/components/Gallery";
-import RSVP from "@/components/RSVP";
-import Footer from "@/components/Footer";
+import { Header, Hero, OurStory, Schedule, Venue, Gallery, RSVP, Footer } from "@/components";
 
 function App() {
   useEffect(() => {
@@ -55,7 +48,6 @@ function App() {
         <Schedule />
         <Venue />
         <Gallery />
-        {/* <RSVP /> */}
       </main>
       <Footer />
     </div>

@@ -111,12 +111,24 @@
     background-color: hsl(var(--secondary));
   }
 
+  .bg-cream {
+    background-color: hsl(36, 33%, 97%);
+  }
+
   .text-gold {
     color: hsl(var(--secondary));
   }
 
+  .text-blush {
+    color: hsl(var(--primary));
+  }
+
   .text-darkGold {
     color: hsl(44, 69%, 42%);
+  }
+
+  .text-darkGray {
+    color: hsl(210, 24%, 16%);
   }
 
   .border-gold {

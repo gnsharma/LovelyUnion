@@ -38,9 +38,9 @@ const Schedule = () => {
                       <p className="text-darkGray">{item.time}</p>
                     </div>
                   </div>
-                  <p className="font-sans text-darkGray leading-relaxed">
+                  <div className="font-sans text-darkGray leading-relaxed">
                     {item.description}
-                  </p>
+                  </div>
                   <div className="mt-4 text-sm flex items-center text-darkGray">
                     <MapPin className="text-gold mr-2" size={16} />
                     <span>{item.location}</span>
