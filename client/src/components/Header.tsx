@@ -32,7 +32,10 @@ const Header = () => {
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-opacity-95 shadow' : 'bg-opacity-90'}`} id="navbar">
       <nav className="bg-cream backdrop-blur-sm py-4">
         <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
-          <a href="#hero" className="font-script text-2xl text-gold">Anika & Govind</a>
+          <div className="flex flex-col">
+            <a href="#hero" className="font-script text-2xl text-gold">Anika & Govind</a>
+            <span className="text-xs text-darkGold italic">#ani_ka_govind</span>
+          </div>
           
           {/* Mobile Menu Button */}
           <button 

@@ -10,12 +10,12 @@ import Footer from "@/components/Footer";
 
 function App() {
   useEffect(() => {
-    document.title = "Anika & Govind - Wedding Celebration";
+    document.title = "Anika & Govind - Wedding Celebration | #ani_ka_govind";
     
     // Add meta description for SEO
     const metaDescription = document.createElement('meta');
     metaDescription.name = 'description';
-    metaDescription.content = 'Join us in celebrating the wedding of Anika and Govind on May 05, 2025 at Hotel Prime Safari.';
+    metaDescription.content = 'Join us in celebrating the wedding of Anika Jain and Govind Narayan Sharma on May 05, 2025 at Hotel Prime Safari. #ani_ka_govind';
     document.head.appendChild(metaDescription);
     
     // Function to handle animations on scroll

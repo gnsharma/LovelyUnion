@@ -5,9 +5,12 @@ const Footer = () => {
     <footer className="py-10 bg-darkGray text-darkGray">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center">
-          <h2 className="font-script text-3xl text-gold mb-4">
-            Anika & Govind
+          <h2 className="font-script text-3xl text-gold mb-3">
+            Anika Jain & Govind Narayan Sharma
           </h2>
+          <p className="font-script text-lg text-gold mb-2">
+            #ani_ka_govind
+          </p>
           <p className="font-serif mb-6">
             May 05, 2025 • Hotel Prime Safari • Jaipur
           </p>
@@ -54,7 +57,7 @@ const Footer = () => {
           </nav>
 
           <p className="font-sans text-sm text-gray-400">
-            &copy; {currentYear} Anika & Govind Wedding | Created with{" "}
+            &copy; {currentYear} Anika Jain & Govind Narayan Sharma Wedding | Created with{" "}
             <span className="text-red-600">♥</span>
           </p>
         </div>

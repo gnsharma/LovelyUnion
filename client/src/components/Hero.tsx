@@ -24,14 +24,21 @@ const Hero = () => {
           style={{ transitionDelay: "200ms" }}
           data-animate="true"
         >
-          Anika & Govind
+          Anika Jain & Govind Narayan Sharma
         </h1>
         <p
-          className="font-sans text-lg md:text-xl text-white mb-8 opacity-0 translate-y-5 transition-all duration-800 ease-out"
+          className="font-sans text-lg md:text-xl text-white mb-3 opacity-0 translate-y-5 transition-all duration-800 ease-out"
           style={{ transitionDelay: "400ms" }}
           data-animate="true"
         >
           May 05, 2025 • Hotel Prime Safari • Jaipur
+        </p>
+        <p
+          className="font-script text-xl md:text-2xl text-gold mb-8 opacity-0 translate-y-5 transition-all duration-800 ease-out"
+          style={{ transitionDelay: "500ms" }}
+          data-animate="true"
+        >
+          #ani_ka_govind
         </p>
         <div
           className="opacity-0 translate-y-5 transition-all duration-800 ease-out"
