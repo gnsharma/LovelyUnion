@@ -32,7 +32,7 @@ const OurStory = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="font-serif text-xl text-darkGray">Sarah Anderson</h3>
+              <h3 className="font-serif text-xl text-darkGray">Anika Jain</h3>
               <p className="font-sans text-sm text-darkGray italic">The Bride</p>
             </div>
             
@@ -44,7 +44,7 @@ const OurStory = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="font-serif text-xl text-darkGray">Michael Reynolds</h3>
+              <h3 className="font-serif text-xl text-darkGray">Govind Narayan Sharma</h3>
               <p className="font-sans text-sm text-darkGray italic">The Groom</p>
             </div>
           </div>

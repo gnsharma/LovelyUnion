@@ -10,12 +10,12 @@ import Footer from "@/components/Footer";
 
 function App() {
   useEffect(() => {
-    document.title = "Sarah & Michael - Wedding Celebration";
+    document.title = "Anika & Govind - Wedding Celebration";
     
     // Add meta description for SEO
     const metaDescription = document.createElement('meta');
     metaDescription.name = 'description';
-    metaDescription.content = 'Join us in celebrating the wedding of Sarah and Michael on June 15, 2024 at Lakeside Garden Estate.';
+    metaDescription.content = 'Join us in celebrating the wedding of Anika and Govind on May 05, 2025 at Hotel Prime Safari.';
     document.head.appendChild(metaDescription);
     
     // Function to handle animations on scroll
