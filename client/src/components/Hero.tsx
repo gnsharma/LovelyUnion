@@ -53,9 +53,9 @@ const Hero = () => {
       }}
     >
       <div className="absolute inset-0 bg-darkGray bg-opacity-50"></div>
-      <div className="absolute inset-0 flex flex-col items-center text-center px-4 pt-32 md:pt-40">
+      <div className="absolute inset-0 flex flex-col items-center text-center px-4 pt-32 md:pt-24 ">
         <p
-          className="font-script text-3xl md:text-4xl lg:text-5xl text-cream mb-4 opacity-0 translate-y-5 transition-all duration-800 ease-out"
+          className="font-script text-3xl md:text-4xl lg:text-5xl text-gold mb-4 opacity-0 translate-y-5 transition-all duration-800 ease-out"
           style={{ transitionDelay: "0ms" }}
           data-animate="true"
         >

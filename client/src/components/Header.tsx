@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-opacity-95 shadow' : 'bg-opacity-90'}`} id="navbar">
-      <nav className="bg-cream backdrop-blur-sm py-4">
+      <nav className="bg-cream backdrop-blur-sm pt-4">
         <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
           <div className="flex flex-col">
             <a href="#hero" className="font-script text-5xl text-gold">Anika & Govind</a>
@@ -58,7 +58,7 @@ const Header = () => {
         
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-cream bg-opacity-95 shadow-md`}>
-          <ul className="container mx-auto px-4 py-4 space-y-4 font-serif text-sm uppercase tracking-wider">
+          <ul className="container mx-auto px-4 pt-4 space-y-4 font-serif text-sm uppercase tracking-wider">
             <li><a href="#hero" onClick={closeMenu} className="block text-darkGray hover:text-gold transition-colors">Home</a></li>
             <li><a href="#story" onClick={closeMenu} className="block text-darkGray hover:text-gold transition-colors">Our Story</a></li>
             <li><a href="#schedule" onClick={closeMenu} className="block text-darkGray hover:text-gold transition-colors">Schedule</a></li>
