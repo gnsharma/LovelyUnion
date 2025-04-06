@@ -1,5 +1,6 @@
 import { useInView } from "@/lib/animation";
-import { MapPin, Phone, Globe, Hotel } from "lucide-react";
+import { MapPin } from "lucide-react";
+import { venueExteriorImage } from "@/data/images";
 
 const Venue = () => {
   const { ref: titleRef, inView: titleInView } = useInView();
@@ -11,8 +12,7 @@ const Venue = () => {
       id="venue"
       className="relative py-20 md:py-28 bg-cover bg-fixed"
       style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80')",
+        backgroundImage: `url('${venueExteriorImage}')`,
       }}
     >
       <div className="absolute inset-0 bg-darkGray bg-opacity-60"></div>

@@ -1,4 +1,5 @@
 import { useInView } from "@/lib/animation";
+import { brideImage, groomImage } from "@/data/images";
 
 const OurStory = () => {
   const { ref, inView } = useInView();
@@ -51,7 +52,7 @@ const OurStory = () => {
             <div className="mb-8 md:mb-0">
               <div className="w-60 h-60 mx-auto rounded-full overflow-hidden border-4 border-blush shadow-lg mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1061&q=80"
+                  src={brideImage}
                   alt="Anika Jain portrait"
                   className="w-full h-full object-cover"
                 />
@@ -65,7 +66,7 @@ const OurStory = () => {
             <div>
               <div className="w-60 h-60 mx-auto rounded-full overflow-hidden border-4 border-blush shadow-lg mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1563452965085-2e77e5bf2607?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+                  src={groomImage}
                   alt="Govind Narayan Sharma portrait"
                   className="w-full h-full object-cover"
                 />
