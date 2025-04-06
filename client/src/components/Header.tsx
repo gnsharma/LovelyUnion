@@ -33,8 +33,8 @@ const Header = () => {
       <nav className="bg-cream backdrop-blur-sm pt-4">
         <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
           <div className="flex flex-col">
-            <a href="#hero" className="font-script text-5xl text-gold">Anika & Govind</a>
-            <span className="text-lg text-darkGold italic">#ani_ka_govind</span>
+            <a href="#hero" className="font-script text-2xl text-gold">Anika & Govind</a>
+            <span className="text-base text-darkGold italic">#ani_ka_govind</span>
           </div>
           
           {/* Mobile Menu Button */}

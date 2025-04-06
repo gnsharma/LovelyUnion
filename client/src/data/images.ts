@@ -13,13 +13,13 @@ export const galleryImages = [
     id: 1,
     src: "/images/gallery/image1.jpg",
     alt: "Gallery Image 1",
-    description: "Our first date"
+    description: ""
   },
   {
     id: 2,
     src: "/images/gallery/image2.jpg",
     alt: "Gallery Image 2",
-    description: "The proposal"
+    description: ""
   },
   {
     id: 3,

@@ -55,7 +55,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-darkGray bg-opacity-50"></div>
       <div className="absolute inset-0 flex flex-col items-center text-center px-4 pt-20 md:pt-24">
         <p
-          className="font-script text-3xl md:text-4xl lg:text-5xl text-gold mb-4 opacity-0 translate-y-5 transition-all duration-800 ease-out"
+          className="font-script text-xl md:text-2xl lg:text-3xl text-gold mb-4 opacity-0 translate-y-5 transition-all duration-800 ease-out"
           style={{ transitionDelay: "0ms" }}
           data-animate="true"
         >
@@ -71,13 +71,11 @@ const Hero = () => {
         
         {/* Title for countdown */}
         <div 
-          className="mb-4 opacity-0 translate-y-5 transition-all duration-800 ease-out"
+          className="opacity-0 translate-y-5 transition-all duration-800 ease-out"
           style={{ transitionDelay: "300ms" }}
           data-animate="true"
         >
-          <p className="text-cream font-script text-xl md:text-2xl">
-            Counting Down to Our Special Day
-          </p>
+          
         </div>
 
         {/* Playful Countdown Timer */}
