@@ -10,16 +10,28 @@ const OurStory = () => {
           ref={ref}
           className={`max-w-3xl mx-auto text-center opacity-0 translate-y-5 transition-all duration-1000 ease-out ${inView ? 'opacity-100 translate-y-0' : ''}`}
         >
-          <p className="font-script text-2xl md:text-3xl text-gold mb-2">Our Love Story</p>
-          <h2 className="font-serif text-3xl md:text-4xl text-darkGray mb-6">How We Met</h2>
+          <p className="font-script text-2xl md:text-3xl text-gold mb-2">In Each Other, We Found Everything</p>
+          {/* <h2 className="font-serif text-3xl md:text-4xl text-darkGray mb-6">In Each Other, We Found Everything</h2> */}
           <div className="h-0.5 w-24 bg-blush mx-auto mb-10"></div>
           
           <div className="text-center mb-12">
             <p className="font-sans text-base md:text-lg text-darkGray leading-relaxed mb-6">
-              It all began with a family introduction in the winter of 2022. Anika, who had just completed her MBA, met Govind at a mutual family friend's wedding in Delhi. What started as polite conversation blossomed into something beautiful as they discovered their shared love for travel and Indian classical music.
+              We’re getting married—and honestly, it still feels kind of wild to say.
             </p>
             <p className="font-sans text-base md:text-lg text-darkGray leading-relaxed">
-              After two years of wonderful memories together, Govind proposed during a private boat ride on Lake Pichola in Udaipur at sunset. We're excited to celebrate our love with our closest friends and family as we begin this beautiful journey of a lifetime together.
+              Somewhere between all the late-night talks, the dumb jokes only we find funny, and the endless “what should we eat?” debates, we stumbled into something that just… worked.
+            </p>
+            <p className="font-sans text-base md:text-lg text-darkGray leading-relaxed">
+              Govind is the calm to Anika’s spark. He’s the steady one; she’s the spontaneous one. She dreams out loud, and he quietly figures out how to make those dreams happen. Sure, we don’t always agree on movie choices, or what counts as “on time”—but we’ve learned how to meet in the middle, laugh through it, and keep things light.
+            </p>
+            <p className="font-sans text-base md:text-lg text-darkGray leading-relaxed">
+              We’ve tackled messy days, celebrated tiny wins, and built a kind of love that’s equal parts cozy, chaotic, and completely real.
+            </p>
+            <p className="font-sans text-base md:text-lg text-darkGray leading-relaxed">
+              This next step isn’t just about the big day—it’s about choosing each other, again and again, through every weird and wonderful day ahead.
+            </p>
+            <p className="font-sans text-base md:text-lg text-darkGray leading-relaxed">
+              And yes, we’re beyond excited—for forever.
             </p>
           </div>
           

@@ -36,32 +36,23 @@ const Venue = () => {
             className={`bg-white bg-opacity-95 rounded-lg shadow-lg p-8 lg:w-1/2 opacity-0 translate-y-5 transition-all duration-1000 ease-out ${contentInView ? "opacity-100 translate-y-0" : ""}`}
           >
             <h3 className="font-serif text-2xl text-darkGray mb-4">
-              Lakeside Garden Estate
+              Hotel Prime Safari
             </h3>
             <p className="font-sans text-darkGray leading-relaxed mb-6">
-              Our wedding will take place at the stunning Lakeside Garden
-              Estate, offering breathtaking views of the lake and mountains. The
-              venue features beautiful gardens, a waterfront pavilion for the
-              ceremony, and an elegant ballroom for the reception.
+              Our wedding will take place at the stunning Hotel Prime Safari offering a blend of modern amenities and
+              traditional hospitality, featuring well-appointed rooms and
+              versatile event spaces suitable for weddings and other
+              celebrations. Its proximity to Mansarovar Metro Station, just
+              about 1 km away, ensures convenient access for guests.
             </p>
 
-            <div className="space-y-4 mb-6">
+            <div className="space-y-4">
               <div className="flex items-start">
                 <MapPin className="text-gold mt-1 mr-4" size={20} />
                 <p className="font-sans text-darkGray">
-                  500 Sunset Way
+                  283A Gopalpura Bypass Road
                   <br />
-                  Lakeview, CA 95123
-                </p>
-              </div>
-              <div className="flex items-start">
-                <Phone className="text-gold mt-1 mr-4" size={20} />
-                <p className="font-sans text-darkGray">(555) 123-4567</p>
-              </div>
-              <div className="flex items-start">
-                <Globe className="text-gold mt-1 mr-4" size={20} />
-                <p className="font-sans text-darkGray">
-                  www.lakesidegardenestate.com
+                  Mansarovar, Jaipur, 302012
                 </p>
               </div>
             </div>

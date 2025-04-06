@@ -18,7 +18,7 @@ const Schedule = () => {
         </div>
         
         <div className="max-w-3xl mx-auto relative">
-          <div className="hidden md:block absolute left-8 top-0 bottom-0 w-0.5 bg-gold bg-opacity-30"></div>
+          {/* <div className="hidden md:block absolute left-8 top-0 bottom-0 w-0.5 bg-gold bg-opacity-30"></div> */}
           
           {scheduleItems.map((item, index) => {
             const { ref, inView } = useInView();
@@ -27,7 +27,7 @@ const Schedule = () => {
               <div 
                 key={index}
                 ref={ref}
-                className={`md:pl-16 mb-16 relative timeline-dot timeline-line opacity-0 translate-y-5 transition-all duration-1000 ease-out ${inView ? 'opacity-100 translate-y-0' : ''}`}
+                className={`md:pl-4 mb-16 relative timeline-dot timeline-line opacity-0 translate-y-5 transition-all duration-1000 ease-out ${inView ? 'opacity-100 translate-y-0' : ''}`}
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
                 <div className="bg-white rounded-lg shadow-md p-8 border-l-4 border-gold">

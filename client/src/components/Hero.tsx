@@ -24,7 +24,7 @@ const Hero = () => {
           style={{ transitionDelay: "200ms" }}
           data-animate="true"
         >
-          Anika Jain & Govind Narayan Sharma
+          Anika & Govind 
         </h1>
         <p
           className="font-sans text-lg md:text-xl text-white mb-3 opacity-0 translate-y-5 transition-all duration-800 ease-out"
