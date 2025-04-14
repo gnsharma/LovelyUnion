@@ -45,7 +45,9 @@ const Gallery = () => {
                           <video
                             src={image.src}
                             controls
-                            className="w-full h-[600px] object-contain transition-transform duration-500"
+                            playsInline
+                            preload="metadata"
+                            className="w-full h-[400px] md:h-[600px] object-contain bg-black"
                           />
                         ) : (
                           <img
