@@ -11,7 +11,7 @@ const OurStory = () => {
           ref={ref}
           className={`max-w-3xl mx-auto text-center opacity-0 translate-y-5 transition-all duration-1000 ease-out ${inView ? "opacity-100 translate-y-0" : ""}`}
         >
-          <p className="font-script text-2xl md:text-3xl text-gold mb-2">
+          <p className="font-script text-2xl md:text-3xl text-darkGold mb-2">
             In Each Other, We Found Everything
           </p>
           <div className="h-0.5 w-24 bg-blush mx-auto mb-10"></div>
