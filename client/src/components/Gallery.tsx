@@ -24,7 +24,7 @@ const Gallery = () => {
           <div className="h-0.5 w-24 bg-blush mx-auto"></div>
         </div>
         
-        <div className="max-w-4xl mx-auto px-8">
+        <div className="max-w-4xl mx-auto px-2 md:px-8">
           <Carousel opts={{ loop: true }}>
             <CarouselContent>
               {galleryImages.map((image, index) => {
@@ -54,8 +54,8 @@ const Gallery = () => {
                 );
               })}
             </CarouselContent>
-            <CarouselPrevious className="left-2" />
-            <CarouselNext className="right-2" />
+            <CarouselPrevious className="left-0 md:left-2" />
+            <CarouselNext className="right-0 md:right-2" />
           </Carousel>
         </div>
       </div>
