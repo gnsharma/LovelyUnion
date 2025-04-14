@@ -41,11 +41,19 @@ const Gallery = () => {
                       style={{ transitionDelay: `${index * 100}ms` }}
                     >
                       <div className="gallery-item rounded-lg overflow-hidden shadow-md cursor-pointer relative group">
-                        <img
-                          src={image.src}
-                          alt={image.alt}
-                          className="w-full h-[600px] object-cover transition-transform duration-500 group-hover:scale-110"
-                        />
+                        {image.type === "video" ? (
+                          <video
+                            src={image.src}
+                            controls
+                            className="w-full h-[600px] object-contain transition-transform duration-500"
+                          />
+                        ) : (
+                          <img
+                            src={image.src}
+                            alt={image.alt}
+                            className="w-full h-[600px] object-cover transition-transform duration-500 group-hover:scale-110"
+                          />
+                        )}
                         {image.description && (
                           <div className="absolute inset-0 bg-darkGray bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300 flex items-end justify-center opacity-0 group-hover:opacity-100">
                             <p className="texΩt-white font-sans p-4 text-center">
