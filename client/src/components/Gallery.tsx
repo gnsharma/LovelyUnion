@@ -44,7 +44,7 @@ const Gallery = () => {
                         <img
                           src={image.src}
                           alt={image.alt}
-                          className="w-full h-[600px] object-cover transition-transform duration-500 group-hover:scale-110"
+                          className="w-full h-[400px] md:h-[600px] object-contain md:object-cover transition-transform duration-500 group-hover:scale-110"
                         />
                         {image.description && (
                           <div className="absolute inset-0 bg-darkGray bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300 flex items-end justify-center opacity-0 group-hover:opacity-100">
