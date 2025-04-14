@@ -11,13 +11,6 @@ export const groomImage = "/images/profile/groom.jpg";
 export const galleryImages = [
   {
     id: 1,
-    type: "video",
-    src: "/images/gallery/video1.mp4",
-    alt: "Gallery Video 1",
-    description: "Our special moments",
-  },
-  {
-    id: 2,
     type: "image",
     src: "/images/gallery/image1.jpg",
     alt: "Gallery Image 1",
@@ -59,12 +52,13 @@ export const galleryImages = [
     alt: "Gallery Image 7",
     description: "Celebrating with cutie",
   },
-  // {
-  //   id: 6,
-  //   src: "/images/gallery/image8.jpg",
-  //   alt: "Gallery Image 8",
-  //   description: "Celebrating with cutie"
-  // }
+  {
+    id: 8,
+    type: "video",
+    src: "/images/gallery/video1.mp4",
+    alt: "Gallery Video 1",
+    description: "Our wedding invitation",
+  },
 ];
 
 // Venue images
