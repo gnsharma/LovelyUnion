@@ -46,11 +46,6 @@ const Footer = () => {
                   Gallery
                 </a>
               </li>
-              <li>
-                <a href="#rsvp" className="hover:text-gold transition-colors">
-                  RSVP
-                </a>
-              </li>
             </ul>
           </nav>
 
