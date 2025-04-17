@@ -49,6 +49,24 @@
     @apply font-sans antialiased bg-background text-foreground;
   }
 
+  section {
+    position: relative;
+    background-blend-mode: overlay;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, var(--background));
+    pointer-events: none;
+    z-index: 1;
+  }
+
   .font-serif {
     font-family: 'Cormorant Garamond', serif;
   }
